@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="viewport"
+     content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+  <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans&family=Russo+One&display=swap" rel="stylesheet">
+  <title>Weather today</title>
+<link href="main.css" rel="stylesheet"></head>
+<body>
+  <div class="weather">
+    <div class="wrapperOne">
+
+      <div class="weather-header">
+        <div class="weather-header__town">Омск</div>
+        <div class="weather-header-block">
+          <div class="weather-header-block__name"><input type="text" placeholder="Write your city" class="input-city"></div>  
+          <div class="weather-header-block__ok"> <a href="#" class="ok">ОК</a> </div> 
+        </div>
+        <div class="weather-header-buttons">
+          <div class="weather-header-buttons__o">0</div>
+          <div class="weather-header-buttons-btns">
+            <div class="weather-header-buttons-btns__c">C</div>
+            <div class="weather-header-buttons-btns__f">F</div>
+          </div>   
+        </div>  
+
+      </div>
+
+
+      <div class="wrapperTwo">
+
+        <div class="weather-main-text">
+          <div class="weather-main-text__choose">Change city</div> 
+          <div class="weather-header-block phone">
+            <div class="weather-header-block__name phone__name"><input type="text" placeholder="Write your city" class="input-city ipnut-city-phone"></div>  
+            <div class="weather-header-block__ok phone__ok okBtn">ОК</div> 
+          </div>
+          <div class="wrap">
+            <div class="weather-main-text__image"><img src="/img/Path 2.png" alt=""></div>
+            <div class="weather-main-text__place">My location</div> 
+          </div>
+        </div>  
+
+
+        <div class="weather-about">
+          <div class="weather-about-wrapper">
+            <div class="weather-about-wrapper-img"><img class="imagee" src="/img/rain.png" alt=""> </div>
+            <div class="weather-about-wrapper__degrees">?º</div> 
+          </div>  
+          <div class="weather-about__text">Rainy</div> 
+        </div>  
+    
+        <div class="weather-about-pc">
+          <div class="weather-about-pc-wrapper">
+            <div class="weather-about-pc-wrapper-img "><img class="imageeTwo" src="/img/Sunny.png" alt=""></div>
+
+            <div class="weather-about-pc-wrapper__degrees">? º</div> 
+          </div>  
+          <div class="weather-about-pc__text">Sunny</div> 
+        </div>  
+        </div>
+
+      </div>
+
+      
+  
+      <div class="wrapperThree">
+        <div class="weather-footer">
+          <div class="weather-footer-data">
+            <div class="weather-footer-data__name">wind</div>  
+            <div class="weather-footer-data__stat wind">? m/s</div>
+          </div>  
+          <div class="weather-footer-data">
+            <div class="weather-footer-data__name">pressure</div>  
+            <div class="weather-footer-data__stat pressur">? mm</div>
+          </div>  
+          <div class="weather-footer-data humidity">
+            <div class="weather-footer-data__name">Humidity</div>  
+            <div class="weather-footer-data__stat humidit">? %</div>
+          </div>  
+        </div>
+      </div>
+
+  </div>
+<script type="text/javascript" src="bundle.js"></script></body>
+</html>
